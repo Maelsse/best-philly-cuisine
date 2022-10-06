@@ -1,22 +1,35 @@
-#################################################
 # Dependencies
 ##################################################
 
-from flask import Flask, render_template, redirect
-from flask_pymongo import PyMongo
-
+from flask import (Flask, jsonify, render_template, send_file, url_for)
+import os
+import json
 # Create an instance of Flask
+
 app = Flask(__name__)
 
-# Use PyMongo to establish Mongo connection
-app.config["MONGO_URI"] = "mongodb://localhost:27017/philly_cuisine"
-mongo = PyMongo(app)
+# index 
 
-#################################################
-# Flask Routes
-#################################################
+@app.route('/')
+def index():
+    return render_template('index.html')
 
+# about
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
+# map
+
+# @app.route('/view/<chlorapleth>')
+# def index():
+#    return send_file(f"static/img/{restaurants}")
+
+@app.route("/zips")
+def download():
+    with open('data/Zipcodes_Poly.geojson') as f:
+        data = json.load(f)
+        return data
 
 if __name__ == "__main__":
     app.run(debug=True)
