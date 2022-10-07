@@ -19,12 +19,6 @@ def index():
 def about():
     return render_template('about.html')
 
-# map
-
-# @app.route('/view/<chlorapleth>')
-# def index():
-#    return send_file(f"static/img/{restaurants}")
-
 @app.route("/zips")
 def download():
     with open('data/Zipcodes_Poly.geojson') as f:
