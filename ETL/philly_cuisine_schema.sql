@@ -1,3 +1,4 @@
+-- Create the table to hold the list of businesses in food industries
 drop table if exists philly_cuisine cascade;
 
 CREATE TABLE "philly_cuisine" 
@@ -16,17 +17,13 @@ CREATE TABLE "philly_cuisine"
 					, CONSTRAINT "pk_id" PRIMARY KEY ("id")
 );
 
--- 1. name             object
--- 2. address          object
--- 3. city             object
--- 4. state            object
--- 5. postal_code      object
 
--- 6. latitude        float64
--- 7. longitude       float64
--- 8. rating/stars    float64 
+-- Create the table to hold the list of categories and sub categories
+drop table if exists categories cascade;
 
--- 9. review_count      int64
--- 10. is_open           int64
+CREATE TABLE "categories" 
+                    ( "category"      VARCHAR NOT NULL
+                    , "sub_category"    VARCHAR NOT NULL
+					
+);
 
--- 11. categories       object
