@@ -1,0 +1,147 @@
+{
+	"records": [{
+		"CODE": 19120,
+		"Alias": "Olney"
+	}, {
+		"CODE": 19121,
+		"Alias": "Brewerytown"
+	}, {
+		"CODE": 19122,
+		"Alias": ["Olde Kensington", "Fishtown"]
+	}, {
+		"CODE": 19123,
+		"Alias": ["Northern Liberties", "West Poplar"]
+	}, {
+		"CODE": 19124,
+		"Alias": ["Frankford", "Juniata"]
+	}, {
+		"CODE": 19125,
+		"Alias": ["Kensington", "Fishtown"]
+	}, {
+		"CODE": 19126,
+		"Alias": "Oak Lake"
+	}, {
+		"CODE": 19127,
+		"Alias": "Manayunk"
+	}, {
+		"CODE": 19128,
+		"Alias": ["Roxborough", "Wissahickon"]
+	}, {
+		"CODE": 19102,
+		"Alias": ["Center City West", "Logan Circle"]
+	}, {
+		"CODE": 19103,
+		"Alias": ["Center City West", "Rittenhouse", "Logan Square", "Fitler Square"]
+	}, {
+		"CODE": 19104,
+		"Alias": ["University City", "Powelton", "Spruce Hill", "Mantua"]
+	}, {
+		"CODE": 19106,
+		"Alias": ["Society Hill", "Old City"]
+	}, {
+		"CODE": 19107,
+		"Alias": ["Washington Square West", "Chinatown"]
+	}, {
+		"CODE": 19109,
+		"Alias": "Gayborhood"
+	}, {
+		"CODE": 19111,
+		"Alias": ["Fox Chase", "Oxford Circle"]
+	}, {
+		"CODE": 19112,
+		"Alias": ["Navy Yard", "Marconi Plaza"]
+	}, {
+		"CODE": 19114,
+		"Alias": ["Torresdale South", "Pennypack"]
+	}, {
+		"CODE": 19115,
+		"Alias": "Bustleton"
+	}, {
+		"CODE": 19116,
+		"Alias": "Somerton"
+	}, {
+		"CODE": 19118,
+		"Alias": "Chestnut Hill"
+	}, {
+		"CODE": 19119,
+		"Alias": "Mount Airy"
+	}, {
+		"CODE": 19149,
+		"Alias": ["Northeast Boulevard", "Mayfair"]
+	}, {
+		"CODE": 19150,
+		"Alias": ["Wadsworth", "Cedarbrook"]
+	}, {
+		"CODE": 19151,
+		"Alias": "Overbrook"
+	}, {
+		"CODE": 19152,
+		"Alias": ["Rhawnhurst", "Lexington Park"]
+	}, {
+		"CODE": 19153,
+		"Alias": ["Penrose", "Eastwick"]
+	}, {
+		"CODE": 19154,
+		"Alias": ["Parkwood", "Byberry"]
+	}, {
+		"CODE": 19129,
+		"Alias": "East Falls"
+	}, {
+		"CODE": 19130,
+		"Alias": ["Fairmount", "Spring Garden", "Francisville"]
+	}, {
+		"CODE": 19131,
+		"Alias": ["Wynnefield", "West Parkside"]
+	}, {
+		"CODE": 19132,
+		"Alias": ["Allegheny West", "Strawberry Mansion", "Stanton"]
+	}, {
+		"CODE": 19133,
+		"Alias": "Fairhill"
+	}, {
+		"CODE": 19134,
+		"Alias": ["Port Richmond", "Harrowgate"]
+	}, {
+		"CODE": 19135,
+		"Alias": "Tacony"
+	}, {
+		"CODE": 19136,
+		"Alias": "Holmesburg"
+	}, {
+		"CODE": 19137,
+		"Alias": "Bridesburg"
+	}, {
+		"CODE": 19138,
+		"Alias": "Germantown East"
+	}, {
+		"CODE": 19139,
+		"Alias": ["West Market", "Walnut Hill", "Mill Creek"]
+	}, {
+		"CODE": 19140,
+		"Alias": ["Nicetown", "Tioga", "Hunting Park", "Franklinville"]
+	}, {
+		"CODE": 19141,
+		"Alias": ["Ogontz", "Fern Rock"]
+	}, {
+		"CODE": 19142,
+		"Alias": ["Elmwood", "Paschall"]
+	}, {
+		"CODE": 19143,
+		"Alias": ["Cobbs Creek", "Kingsessing", "SW Schuykill"]
+	}, {
+		"CODE": 19144,
+		"Alias": "Germantown"
+	}, {
+		"CODE": 19145,
+		"Alias": ["Greys Ferry", "Point Breeze", "Newbold", "Girard Estates", "West Passyunk"]
+	}, {
+		"CODE": 19146,
+		"Alias": ["Graduate Hospital", "Center City SW"]
+	}, {
+		"CODE": 19147,
+		"Alias": ["Queen Village", "East Passyunk", "Dickinson Narrows", "Hawthorne"]
+	}, {
+		"CODE": 19148,
+		"Alias": ["Pennsport", "Lower Moyamensing", "Stadium District"]
+	}]
+}
