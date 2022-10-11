@@ -1,6 +1,13 @@
--- Create the table to hold the list of businesses in food industries
-drop table if exists philly_cuisine cascade;
+--Drop all tables at once wihtout needing to re-initialize schema and restore grants
+DO $$ DECLARE
+    r RECORD;
+BEGIN
+    FOR r IN (SELECT tablename FROM pg_tables WHERE schemaname = current_schema()) LOOP
+        EXECUTE 'DROP TABLE IF EXISTS ' || quote_ident(r.tablename) || ' CASCADE';
+    END LOOP;
+END $$;
 
+-- Create the table to hold the list of businesses in food industries
 CREATE TABLE "philly_cuisine" 
                     ( "id"              INT NOT NULL 
 					, "name"        VARCHAR NOT NULL
@@ -19,8 +26,6 @@ CREATE TABLE "philly_cuisine"
 
 
 -- Create the table to hold the list of categories and sub categories
-drop table if exists categories cascade;
-
 CREATE TABLE "categories" 
                     ( "category"      VARCHAR NOT NULL
                     , "sub_category"    VARCHAR NOT NULL
