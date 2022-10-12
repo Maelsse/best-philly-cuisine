@@ -52,9 +52,15 @@
 
         <div class="well">
           <h5>Food Type Category</h5>
-          <h3>to do: convert this to radio button to select the "type of food" or "type of cuisine"<br>
-          </h3>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <!-- <h3>to do: convert this to radio button to select the "type of food" or "type of cuisine"<br></h3>-->
+          <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select>-->
+          <input type="radio" id="html" name="type_cuisine" value="HTML" onchange="optionChanged(this.value)">
+          <label for="html">type of cuisine</label><br>
+          
+          <input type="radio" id="html" name="type_food" value="HTML" onchange="optionChanged(this.value)">
+          <label for="html">type of food</label><br>
+
+
         </div>
         <br>
         <div class="well">
@@ -74,15 +80,13 @@
       <div id="graphs">
       </div>
       <h4>graph area</h4>
-
       <div class="row">
         <div class="col-md-5">
           <h4>1st graph area</h4>
+          <h2>to do: 1st graph add a visuslization plot/graph i.e bubble chart using the rating showing higher
+            rating larger<br>
+          </h2>
           <div id="bar">
-
-            <h2>to do: 1st graph add a visuslization plot/graph i.e bubble chart using the rating showing higher
-              rating larger<br>
-            </h2>
           </div>
 
         </div>
@@ -90,12 +94,12 @@
         <div class="row"> -->
         <div class="col-md-5">
           <h4>2nd graph area</h4>
+          <h3>to do: add a visualization plot/graph i.e line or bar chart using the rating and number of reviews<br>
+            This could be a good area to use the javascript that was not introduce in the class i.e. ChartKick <br>
+            <h3>
+              <p> link to the Top 15 JavaScript Visualization Libraries: ChartKick is #12 in the list<br>
+                https://www.softwaretestinghelp.com/best-javascript-visualization-libraries/</p>
           <div id="gauge">
-            <h3>to do: add a visualization plot/graph i.e line or bar chart using the rating and number of reviews<br>
-              This could be a good area to use the javascript that was not introduce in the class i.e. ChartKick <br>
-              <h3>
-                <p> link to the Top 15 JavaScript Visualization Libraries: ChartKick is #12 in the list<br>
-                  https://www.softwaretestinghelp.com/best-javascript-visualization-libraries/</p>
           </div>
         </div>
       </div>
@@ -108,18 +112,17 @@
       <hr>
 
       <!-- <div class="row"> -->
-      <div class="col-md-10">
+      <div class="col-md-12">
 
         <div id="leaflet">
         </div>
 
-        <div class="col-md-10">
+        <div class="col-md-12">
           <h4>leaflet area</h4>
+          <h3>to do: Show the leaflet here with round tooltip showing the higher rating larger. On click
+            event show the details of the place i.e. address,rating, number of reviews<br>
           <div id="bubble">
-            <h3> >>>---- to do: Show the leaflet here with round tooltip showing the higher rating larger. On click
-              event
-              show the
-              details of the place i.e. address,rating, number of reviews<br>
+
             </h3>
           </div>
         </div>
