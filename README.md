@@ -9,7 +9,9 @@ tbd: SQLAlchemy ORM, Matplotlib,
 
 
 Source Data: https://www.yelp.com/developers/documentation/v3/business
-Restricted to Philadelphia only: Zip Codes - Datasets - OpenDataPhilly
+
+
+Restricted to Philadelphia only: [Zip Codes - Datasets - OpenDataPhilly](https://www.opendataphilly.org/dataset/zip-codes)
 
 
 ## Objectives:
