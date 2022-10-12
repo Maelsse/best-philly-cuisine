@@ -7,6 +7,11 @@ Rosie Gianan, Myles Browne, Drew Blankenbiller, Mai Flynn, Ryan Kim, Nitin Kumar
 
 tbd: SQLAlchemy ORM, Matplotlib, 
 
+
+Source Data: https://www.yelp.com/developers/documentation/v3/business
+Restricted to Philadelphia only: Zip Codes - Datasets - OpenDataPhilly
+
+
 ## Objectives:
 Create an interactive web visualization that analysis Philly food industry businesses using the Philly businesses json data. 
 Analyze and display the food businesses with at least a 3.5-star rating.
