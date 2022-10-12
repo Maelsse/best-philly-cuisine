@@ -1,5 +1,9 @@
 # Best Philly Cuisine
 
+
+![Philly.jpg](Images/Philly.jpg)
+
+
 #### Contributors: 
 Rosie Gianan, Myles Browne, Drew Blankenbiller, Mai Flynn, Ryan Kim, Nitin Kumar
 
@@ -22,5 +26,4 @@ Analyze and display the food businesses with at least a 3.5-star rating.
 in progress
 
 
-![Philly.jpg](Images/Philly.jpg)
 
