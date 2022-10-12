@@ -23,7 +23,7 @@
 </head>
 
 <body>
-
+  <!-- <div class="container"> -->
   <div class="row">
     <div class="col-md-4">
       <div id="header">
@@ -42,58 +42,102 @@
   <hr>
   <!-- header ends here -->
 
+
+
+  <!-- details -->
   <div class="row">
     <div class="col-md-2">
-      <div class="well">
-        <h5>Food Type Category</h5>
-        <h3>to do: convert this to radio button to select the "type of food" or "type of cuisine"<br>
-        </h3>
-        <select id="selDataset" onchange="optionChanged(this.value)"></select>
-      </div>
-      <br>
-      <div class="well">
-        <h5>Select Food Type</h5>
-        <h3>to do: populate the list with category selected i.e "type of food" or "type of cuisine"</h3>
-        <select id="selDataset" onchange="optionChanged(this.value)"></select>
-      </div>
-    </div>
-    <div class="col-md-5">
-      <div id="bar">
-        <h2>to do: add a visuslization plot/graph i.e bubble chart using the rating showing higher rating larger<br>
-        </h2>
-      </div>
-    </div>
-    <div class="col-md-5">
-      <div id="gauge">
-        <h3>to do: add a visualization plot/graph i.e line or bar chart using the rating and number of reviews<br>
-          This could be a good area to use the javascript that was not introduce in the class i.e. ChartKick <br><h3>
-        <p> link to the Top 15 JavaScript Visualization Libraries: ChartKick is #12 in the list<br>
-          https://www.softwaretestinghelp.com/best-javascript-visualization-libraries/</p>
-      </div>
-    </div>
+      <div id="selection">
+        <h4>selection area</h4>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble">
-          <h3> >>>---- to do: Show the leaflet here with round tooltip showing the higher rating larger. On click event
-            show the
-            details of the place i.e. address,rating, number of reviews<br>
+        <div class="well">
+          <h5>Food Type Category</h5>
+          <h3>to do: convert this to radio button to select the "type of food" or "type of cuisine"<br>
           </h3>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <br>
+        <div class="well">
+          <h5>Select Type</h5>
+          <h3>to do: populate the list with category selected i.e "type of food" or "type of cuisine"</h3>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+
+
+      </div>
+    </div> <!-- end of selection area -->
+
+
+    <!-- <div class="row">??? -->
+    <div class="col-md-10">
+
+      <div id="graphs">
+      </div>
+      <h4>graph area</h4>
+
+      <div class="row">
+        <div class="col-md-5">
+          <h4>1st graph area</h4>
+          <div id="bar">
+
+            <h2>to do: 1st graph add a visuslization plot/graph i.e bubble chart using the rating showing higher
+              rating larger<br>
+            </h2>
+          </div>
+
+        </div>
+        <!-- </div>
+        <div class="row"> -->
+        <div class="col-md-5">
+          <h4>2nd graph area</h4>
+          <div id="gauge">
+            <h3>to do: add a visualization plot/graph i.e line or bar chart using the rating and number of reviews<br>
+              This could be a good area to use the javascript that was not introduce in the class i.e. ChartKick <br>
+              <h3>
+                <p> link to the Top 15 JavaScript Visualization Libraries: ChartKick is #12 in the list<br>
+                  https://www.softwaretestinghelp.com/best-javascript-visualization-libraries/</p>
+          </div>
         </div>
       </div>
-    </div>
+
+
+      <!-- </div>  -->
+      <!-- end of top graphs -->
+      <!-- </div> -->
+
+      <hr>
+
+      <!-- <div class="row"> -->
+      <div class="col-md-10">
+
+        <div id="leaflet">
+        </div>
+
+        <div class="col-md-10">
+          <h4>leaflet area</h4>
+          <div id="bubble">
+            <h3> >>>---- to do: Show the leaflet here with round tooltip showing the higher rating larger. On click
+              event
+              show the
+              details of the place i.e. address,rating, number of reviews<br>
+            </h3>
+          </div>
+        </div>
+
+      </div> <!-- end of leaflet area -->
+      <!-- </div> -->
+
+
+    </div> <!-- end of graphs area -->
+
 
   </div>
 
-  </div>
-
+<!-- </div> -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<!--  <script src="./static/js/app.js"></script>-->
-<!--  <script src="./static/js/bonus.js"></script>-->
   <script src="../static/js/app.js"></script>
   <script src="../static/js/bonus.js"></script>
-
 </body>
 
 </html>
