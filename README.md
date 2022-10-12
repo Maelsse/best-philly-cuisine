@@ -7,7 +7,8 @@
 #### Contributors: 
 Rosie Gianan, Myles Browne, Drew Blankenbiller, Mai Flynn, Ryan Kim, Nitin Kumar
 
-###  Build with: Postgres, pgAdmin, Python, Pandas, csv files, json files, HTML, CSS, Flask API, leaflet, Visual Studio Code, Jupyter notebook
+###  Build with: 
+Postgres, pgAdmin, Python, Pandas, csv files, json files, HTML, CSS, Flask API, leaflet, Visual Studio Code, Jupyter notebook
 
 tbd: SQLAlchemy ORM, Matplotlib, 
 
