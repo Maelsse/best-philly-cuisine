@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+
+.navbar {
+    max-height: 50px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.navbar-brand {
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    margin: 0px 0px 0px 40px;
+}
+
+.header .navbar-brand {
+    color: white;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: darkorchid;
+    font-family: G;
+}
+
+.nav-link:hover {
+    background-color: darkorchid;
+}
+
+#header {
+    background-image: url('/static/LovePhilly.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fill img {
+    flex-shrink: 0.75;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.tools {
+    list-style-type: circle;
+}
+
+#backtop {
+    display: none;
+    /* Hidden by default */
+    float: right;
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 90px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: darkorchid;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#backtop:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+footer {
+    background-color: white;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: lavender;
+    color: darkorchid;
+    min-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    z-index: 2;
+}
+
+@media(max-width: 992px) {
+    .navbar {
+        max-height: none;
+        padding: inherit;
+        background-color: darkorchid;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .nav-link:hover {
+        background-color: white;
+    }
+
+    footer {
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar div {
+        margin: inherit;
+    }
+
+    .navbar-brand {
+        padding: 10px;
+    }
+}

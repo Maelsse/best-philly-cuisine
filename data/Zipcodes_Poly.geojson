@@ -13,7 +13,7 @@
             "properties": {
                 "OBJECTID": 1,
                 "CODE": "19120",
-                "Alias": "Olney",
+                "Alias": ["Olney"],
                 "COD": 20,
                 "Shape__Area": 91779697.374328598,
                 "Shape__Length": 49921.544063246198
@@ -1343,7 +1343,7 @@
             "properties": {
                 "OBJECTID": 2,
                 "CODE": "19121",
-                "Alias": "Brewerytown",
+                "Alias": ["Brewerytown"],
                 "COD": 21,
                 "Shape__Area": 69598787.004699707,
                 "Shape__Length": 39534.887217146999
@@ -2397,7 +2397,7 @@
             "properties": {
                 "OBJECTID": 3,
                 "CODE": "19122",
-                "Alias": ["Olde Kensington", "Fishtown"],
+                "Alias": ["Fishtown"],
                 "COD": 22,
                 "Shape__Area": 35916319.080444299,
                 "Shape__Length": 24124.645221009901
@@ -2847,7 +2847,7 @@
             "properties": {
                 "OBJECTID": 4,
                 "CODE": "19123",
-                "Alias": ["Northern Liberties", "West Poplar"],
+                "Alias": ["Northern Liberties"],
                 "COD": 23,
                 "Shape__Area": 35851751.457519501,
                 "Shape__Length": 26421.728981579501
@@ -3373,7 +3373,7 @@
             "properties": {
                 "OBJECTID": 5,
                 "CODE": "19124",
-                "Alias": ["Frankford", "Juniata"],
+                "Alias": ["Juniata"],
                 "COD": 24,
                 "Shape__Area": 144808025.34112501,
                 "Shape__Length": 63658.7704204779
@@ -5131,7 +5131,7 @@
             "properties": {
                 "OBJECTID": 6,
                 "CODE": "19125",
-                "Alias": ["Kensington", "Fishtown"],
+                "Alias": ["Kensington"],
                 "COD": 25,
                 "Shape__Area": 48226254.440673798,
                 "Shape__Length": 30113.604535596802
@@ -5549,7 +5549,7 @@
             "properties": {
                 "OBJECTID": 7,
                 "CODE": "19126",
-                "Alias": "Oak Lake",
+                "Alias": ["Oak Lane"],
                 "COD": 26,
                 "Shape__Area": 33066582.1293335,
                 "Shape__Length": 26114.900637103601
@@ -5999,7 +5999,7 @@
             "properties": {
                 "OBJECTID": 8,
                 "CODE": "19127",
-                "Alias": "Manayunk",
+                "Alias": ["Manayunk"],
                 "COD": 27,
                 "Shape__Area": 16244292.049438501,
                 "Shape__Length": 29133.850883789299
@@ -6909,7 +6909,7 @@
             "properties": {
                 "OBJECTID": 9,
                 "CODE": "19128",
-                "Alias": ["Roxborough", "Wissahickon"],
+                "Alias": ["Roxborough", " Wissahickon"],
                 "COD": 28,
                 "Shape__Area": 196350523.46264601,
                 "Shape__Length": 76282.328426761102
@@ -9199,7 +9199,7 @@
             "properties": {
                 "OBJECTID": 10,
                 "CODE": "19102",
-                "Alias": ["Center City West", "Logan Circle"],
+                "Alias": ["Logan Square"],
                 "COD": 2,
                 "Shape__Area": 4538804.9165649395,
                 "Shape__Length": 13170.292162898701
@@ -9557,7 +9557,7 @@
             "properties": {
                 "OBJECTID": 11,
                 "CODE": "19103",
-                "Alias": ["Center City West", "Rittenhouse", "Logan Square", "Fitler Square"],
+                "Alias": ["Rittenhouse"],
                 "COD": 3,
                 "Shape__Area": 20680566.797302201,
                 "Shape__Length": 21810.024857524699
@@ -10171,7 +10171,7 @@
             "properties": {
                 "OBJECTID": 12,
                 "CODE": "19104",
-                "Alias": ["University City", "Powelton", "Spruce Hill", "Mantua"],
+                "Alias": ["University City", " Mantua"],
                 "COD": 4,
                 "Shape__Area": 87855674.621887207,
                 "Shape__Length": 41867.137371754499
@@ -11541,7 +11541,7 @@
             "properties": {
                 "OBJECTID": 13,
                 "CODE": "19106",
-                "Alias": ["Society Hill", "Old City"],
+                "Alias": ["Society Hill", " Old City"],
                 "COD": 6,
                 "Shape__Area": 26887740.060791001,
                 "Shape__Length": 21331.985713727201
@@ -11887,7 +11887,7 @@
             "properties": {
                 "OBJECTID": 14,
                 "CODE": "19107",
-                "Alias": ["Washington Square West", "Chinatown"],
+                "Alias": ["Chinatown"],
                 "COD": 7,
                 "Shape__Area": 14867931.1808472,
                 "Shape__Length": 17492.276143187599
@@ -12349,7 +12349,7 @@
             "properties": {
                 "OBJECTID": 15,
                 "CODE": "19109",
-                "Alias": "Gayborhood",
+                "Alias": ["Gayborhood"],
                 "COD": 9,
                 "Shape__Area": 94697.851135253906,
                 "Shape__Length": 1248.2104162560599
@@ -12427,7 +12427,7 @@
             "properties": {
                 "OBJECTID": 16,
                 "CODE": "19111",
-                "Alias": ["Fox Chase", "Oxford Circle"],
+                "Alias": ["Fox Chase"],
                 "COD": 11,
                 "Shape__Area": 145802305.684021,
                 "Shape__Length": 68750.201529061102
@@ -14065,7 +14065,7 @@
             "properties": {
                 "OBJECTID": 17,
                 "CODE": "19112",
-                "Alias": ["Navy Yard", "Marconi Plaza"],
+                "Alias": ["Navy Yard"],
                 "COD": 12,
                 "Shape__Area": 88861621.1055298,
                 "Shape__Length": 48233.604282380998
@@ -15543,7 +15543,7 @@
             "properties": {
                 "OBJECTID": 18,
                 "CODE": "19114",
-                "Alias": ["Torresdale South", "Pennypack"],
+                "Alias": ["Pennypack"],
                 "COD": 14,
                 "Shape__Area": 158663655.78790301,
                 "Shape__Length": 58745.716718750104
@@ -16729,7 +16729,7 @@
             "properties": {
                 "OBJECTID": 19,
                 "CODE": "19115",
-                "Alias": "Bustleton",
+                "Alias": ["Bustleton"],
                 "COD": 15,
                 "Shape__Area": 130504785.698669,
                 "Shape__Length": 58802.804112942802
@@ -18187,7 +18187,7 @@
             "properties": {
                 "OBJECTID": 20,
                 "CODE": "19116",
-                "Alias": "Somerton",
+                "Alias": ["Somerton"],
                 "COD": 16,
                 "Shape__Area": 145089807.20739701,
                 "Shape__Length": 54945.678298193503
@@ -19317,7 +19317,7 @@
             "properties": {
                 "OBJECTID": 21,
                 "CODE": "19118",
-                "Alias": "Chestnut Hill",
+                "Alias": ["Chestnut Hill"],
                 "COD": 18,
                 "Shape__Area": 88769479.844726607,
                 "Shape__Length": 43854.277943613903
@@ -20563,7 +20563,7 @@
             "properties": {
                 "OBJECTID": 22,
                 "CODE": "19119",
-                "Alias": "Mount Airy",
+                "Alias": ["Mount Airy"],
                 "COD": 19,
                 "Shape__Area": 97030626.401977494,
                 "Shape__Length": 43924.061943914203
@@ -21885,7 +21885,7 @@
             "properties": {
                 "OBJECTID": 23,
                 "CODE": "19149",
-                "Alias": ["Northeast Boulevard", "Mayfair"],
+                "Alias": ["Mayfair"],
                 "COD": 49,
                 "Shape__Area": 65134947.9015503,
                 "Shape__Length": 38438.543991052902
@@ -22875,7 +22875,7 @@
             "properties": {
                 "OBJECTID": 24,
                 "CODE": "19150",
-                "Alias": ["Wadsworth", "Cedarbrook"],
+                "Alias": ["Wadsworth", " Cedarbrook"],
                 "COD": 50,
                 "Shape__Area": 41759032.995239303,
                 "Shape__Length": 27740.960497673699
@@ -23389,7 +23389,7 @@
             "properties": {
                 "OBJECTID": 25,
                 "CODE": "19151",
-                "Alias": "Overbrook",
+                "Alias": ["Overbrook"],
                 "COD": 51,
                 "Shape__Area": 67140815.189819306,
                 "Shape__Length": 41079.6928955693
@@ -25863,7 +25863,7 @@
             "properties": {
                 "OBJECTID": 26,
                 "CODE": "19152",
-                "Alias": ["Rhawnhurst", "Lexington Park"],
+                "Alias": ["Rhawnhurst", " Lexington Park"],
                 "COD": 52,
                 "Shape__Area": 86720082.911621094,
                 "Shape__Length": 51045.245640741101
@@ -27245,7 +27245,7 @@
             "properties": {
                 "OBJECTID": 27,
                 "CODE": "19153",
-                "Alias": ["Penrose", "Eastwick"],
+                "Alias": ["Penrose", " Eastwick"],
                 "COD": 53,
                 "Shape__Area": 234181108.27615401,
                 "Shape__Length": 85068.688796221701
@@ -29539,7 +29539,7 @@
             "properties": {
                 "OBJECTID": 28,
                 "CODE": "19154",
-                "Alias": ["Parkwood", "Byberry"],
+                "Alias": ["Parkwood", " Byberry"],
                 "COD": 54,
                 "Shape__Area": 180549268.20477301,
                 "Shape__Length": 63045.917104314001
@@ -32613,7 +32613,7 @@
             "properties": {
                 "OBJECTID": 29,
                 "CODE": "19129",
-                "Alias": "East Falls",
+                "Alias": ["East Falls"],
                 "COD": 29,
                 "Shape__Area": 55860840.814147897,
                 "Shape__Length": 34436.069117117397
@@ -33819,7 +33819,7 @@
             "properties": {
                 "OBJECTID": 30,
                 "CODE": "19130",
-                "Alias": ["Fairmount", "Spring Garden", "Francisville"],
+                "Alias": ["Fairmount", " Spring Garden"],
                 "COD": 30,
                 "Shape__Area": 34184914.077575698,
                 "Shape__Length": 27114.042363199998
@@ -34457,7 +34457,7 @@
             "properties": {
                 "OBJECTID": 31,
                 "CODE": "19131",
-                "Alias": ["Wynnefield", "West Parkside"],
+                "Alias": ["Wynnefield", " West Parkside"],
                 "COD": 31,
                 "Shape__Area": 152844639.717163,
                 "Shape__Length": 59742.529613182502
@@ -36255,7 +36255,7 @@
             "properties": {
                 "OBJECTID": 32,
                 "CODE": "19132",
-                "Alias": ["Allegheny West", "Strawberry Mansion", "Stanton"],
+                "Alias": ["Allegheny West", " Strawberry Mansion"],
                 "COD": 32,
                 "Shape__Area": 63316437.208557099,
                 "Shape__Length": 37309.087311542498
@@ -37529,7 +37529,7 @@
             "properties": {
                 "OBJECTID": 33,
                 "CODE": "19133",
-                "Alias": "Fairhill",
+                "Alias": ["Fairhill"],
                 "COD": 33,
                 "Shape__Area": 34542022.611633301,
                 "Shape__Length": 24547.143388216798
@@ -38167,7 +38167,7 @@
             "properties": {
                 "OBJECTID": 34,
                 "CODE": "19134",
-                "Alias": ["Port Richmond", "Harrowgate"],
+                "Alias": ["Port Richmond", " Harrowgate"],
                 "COD": 34,
                 "Shape__Area": 107777126.498169,
                 "Shape__Length": 45245.380297275296
@@ -38761,7 +38761,7 @@
             "properties": {
                 "OBJECTID": 35,
                 "CODE": "19135",
-                "Alias": "Tacony",
+                "Alias": ["Tacony"],
                 "COD": 35,
                 "Shape__Area": 76379601.847045898,
                 "Shape__Length": 39197.7354130151
@@ -39383,7 +39383,7 @@
             "properties": {
                 "OBJECTID": 36,
                 "CODE": "19136",
-                "Alias": "Holmesburg",
+                "Alias": ["Holmesburg"],
                 "COD": 36,
                 "Shape__Area": 155297827.77209499,
                 "Shape__Length": 53916.058285890802
@@ -40289,7 +40289,7 @@
             "properties": {
                 "OBJECTID": 37,
                 "CODE": "19137",
-                "Alias": "Bridesburg",
+                "Alias": ["Bridesburg"],
                 "COD": 37,
                 "Shape__Area": 81943069.009399399,
                 "Shape__Length": 42884.862574698498
@@ -41219,7 +41219,7 @@
             "properties": {
                 "OBJECTID": 38,
                 "CODE": "19138",
-                "Alias": "Germantown East",
+                "Alias": ["Germantown East"],
                 "COD": 38,
                 "Shape__Area": 47914471.090393104,
                 "Shape__Length": 32242.914569242901
@@ -41869,7 +41869,7 @@
             "properties": {
                 "OBJECTID": 39,
                 "CODE": "19139",
-                "Alias": ["West Market", "Walnut Hill", "Mill Creek"],
+                "Alias": ["Walnut Hill", " Mill Creek"],
                 "COD": 39,
                 "Shape__Area": 49370291.765685998,
                 "Shape__Length": 36666.185606415602
@@ -42867,7 +42867,7 @@
             "properties": {
                 "OBJECTID": 40,
                 "CODE": "19140",
-                "Alias": ["Nicetown", "Tioga", "Hunting Park", "Franklinville"],
+                "Alias": ["Nicetown", " Tioga"],
                 "COD": 40,
                 "Shape__Area": 93089476.410766602,
                 "Shape__Length": 42623.727445157798
@@ -43813,7 +43813,7 @@
             "properties": {
                 "OBJECTID": 41,
                 "CODE": "19141",
-                "Alias": ["Ogontz", "Fern Rock"],
+                "Alias": ["Ogontz", " Fern Rock"],
                 "COD": 41,
                 "Shape__Area": 51062510.075988799,
                 "Shape__Length": 34293.716641212697
@@ -44783,7 +44783,7 @@
             "properties": {
                 "OBJECTID": 42,
                 "CODE": "19142",
-                "Alias": ["Elmwood", "Paschall"],
+                "Alias": ["Elmwood", " Paschall"],
                 "COD": 42,
                 "Shape__Area": 47377703.713500999,
                 "Shape__Length": 31857.516171410702
@@ -46345,7 +46345,7 @@
             "properties": {
                 "OBJECTID": 43,
                 "CODE": "19143",
-                "Alias": ["Cobbs Creek", "Kingsessing", "SW Schuykill"],
+                "Alias": ["Cobbs Creek", " Kingsessing"],
                 "COD": 43,
                 "Shape__Area": 92221358.436035201,
                 "Shape__Length": 45160.382706411103
@@ -48419,7 +48419,7 @@
             "properties": {
                 "OBJECTID": 44,
                 "CODE": "19144",
-                "Alias": "Germantown",
+                "Alias": ["Germantown"],
                 "COD": 44,
                 "Shape__Area": 94957474.104675293,
                 "Shape__Length": 45080.274649265397
@@ -49833,7 +49833,7 @@
             "properties": {
                 "OBJECTID": 45,
                 "CODE": "19145",
-                "Alias": ["Greys Ferry", "Point Breeze", "Newbold", "Girard Estates", "West Passyunk"],
+                "Alias": ["Greys Ferry", " Point Breeze"],
                 "COD": 45,
                 "Shape__Area": 143058515.352173,
                 "Shape__Length": 58196.988004379498
@@ -52043,7 +52043,7 @@
             "properties": {
                 "OBJECTID": 46,
                 "CODE": "19146",
-                "Alias": ["Graduate Hospital", "Center City SW"],
+                "Alias": ["Graduate Hospital"],
                 "COD": 46,
                 "Shape__Area": 49514362.930542,
                 "Shape__Length": 31332.856887263999
@@ -53061,7 +53061,7 @@
             "properties": {
                 "OBJECTID": 47,
                 "CODE": "19147",
-                "Alias": ["Queen Village", "East Passyunk", "Dickinson Narrows", "Hawthorne"],
+                "Alias": ["Queen Village", " East Passyunk"],
                 "COD": 47,
                 "Shape__Area": 49743881.645996101,
                 "Shape__Length": 29555.765023587701
@@ -53459,7 +53459,7 @@
             "properties": {
                 "OBJECTID": 48,
                 "CODE": "19148",
-                "Alias": ["Pennsport", "Lower Moyamensing", "Stadium District"],
+                "Alias": ["Pennsport", " Lower Moyamensing"],
                 "COD": 48,
                 "Shape__Area": 133342592.7323,
                 "Shape__Length": 45074.585533817502

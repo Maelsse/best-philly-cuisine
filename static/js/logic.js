@@ -3,7 +3,7 @@
 // Creating Map Object
 
 var myMap = L.map("phillymap", {
-    center: [39.9526, -75.1652],
+    center: [39.9864, -75.1563],
     zoom: 11
   });
 
@@ -12,6 +12,8 @@ var myMap = L.map("phillymap", {
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myMap);
+
+
 
 // Use this link to get the GeoJSON data.
 var link = "/zips";
@@ -49,7 +51,7 @@ d3.json(link).then(function(data) {
             myMap.fitBounds(event.target.getBounds());
           }
       });
-      layer.bindPopup("<h1>" + feature.properties.CODE)
+      layer.bindPopup("<h1>" + feature.properties.Alias + "<hr>" + feature.properties.CODE)
     }
   }).addTo(myMap);
 });

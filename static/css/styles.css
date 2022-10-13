@@ -3,13 +3,91 @@ html,
 body { height: 100% }
 
 #phillymap { 
-    height: 750px;
+    height: 600px;
     width: 1000px; 
 }
-
+#heatmap {
+    height: 600px;
+    width: 900px;
+}
 .map {
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
+    width: 100%;
+ /* border: 3px solid green; */
     padding: 10px;
+}
+
+.panel {
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.jumbotron {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 3px solid lavender;
+}
+
+.well {
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: white;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: lavender;
+    color: darkorchid;
+    min-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    z-index: 2;
+}
+
+
+@media(max-width: 992px) {
+
+    footer {
+        font-weight: bold;
+        background-color: darkorchid;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    #phillymap {
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    .jumbotron {
+        background-color: darkorchid;
+        color: white;
+        padding: 10px;
+        border-bottom: 3px solid lavender;
+    }
+    
+    .well {
+        text-align: justify;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .panel {
+        margin: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+
 }

@@ -10,20 +10,19 @@ app = Flask(__name__)
 
 # index 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
     return render_template('index.html')
 
-# about
-@app.route('/about')
-def about():
-    return render_template('about.html')
-
-@app.route("/zips")
+@app.route("/zips", methods=['GET', 'POST'])
 def download():
     with open('data/Zipcodes_Poly.geojson') as f:
         data = json.load(f)
         return data
+
+@app.route("/vis", methods=['GET', 'POST'])
+def vis():
+    return render_template('vis.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

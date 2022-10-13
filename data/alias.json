@@ -88,13 +88,13 @@
 		"Alias": "East Falls"
 	}, {
 		"CODE": 19130,
-		"Alias": ["Fairmount", "Spring Garden", "Francisville"]
+		"Alias": ["Fairmount", "Spring Garden"]
 	}, {
 		"CODE": 19131,
 		"Alias": ["Wynnefield", "West Parkside"]
 	}, {
 		"CODE": 19132,
-		"Alias": ["Allegheny West", "Strawberry Mansion", "Stanton"]
+		"Alias": ["Allegheny West", "Strawberry Mansion"]
 	}, {
 		"CODE": 19133,
 		"Alias": "Fairhill"
@@ -115,10 +115,10 @@
 		"Alias": "Germantown East"
 	}, {
 		"CODE": 19139,
-		"Alias": ["West Market", "Walnut Hill", "Mill Creek"]
+		"Alias": ["Walnut Hill", "Mill Creek"]
 	}, {
 		"CODE": 19140,
-		"Alias": ["Nicetown", "Tioga", "Hunting Park", "Franklinville"]
+		"Alias": ["Nicetown", "Tioga"]
 	}, {
 		"CODE": 19141,
 		"Alias": ["Ogontz", "Fern Rock"]
@@ -127,21 +127,21 @@
 		"Alias": ["Elmwood", "Paschall"]
 	}, {
 		"CODE": 19143,
-		"Alias": ["Cobbs Creek", "Kingsessing", "SW Schuykill"]
+		"Alias": ["Cobbs Creek", "Kingsessing"]
 	}, {
 		"CODE": 19144,
 		"Alias": "Germantown"
 	}, {
 		"CODE": 19145,
-		"Alias": ["Greys Ferry", "Point Breeze", "Newbold", "Girard Estates", "West Passyunk"]
+		"Alias": ["Greys Ferry", "Point Breeze"]
 	}, {
 		"CODE": 19146,
-		"Alias": ["Graduate Hospital", "Center City SW"]
+		"Alias": ["Graduate Hospital"]
 	}, {
 		"CODE": 19147,
-		"Alias": ["Queen Village", "East Passyunk", "Dickinson Narrows", "Hawthorne"]
+		"Alias": ["Queen Village", "East Passyunk"]
 	}, {
 		"CODE": 19148,
-		"Alias": ["Pennsport", "Lower Moyamensing", "Stadium District"]
+		"Alias": ["Pennsport", "Lower Moyamensing"]
 	}]
 }

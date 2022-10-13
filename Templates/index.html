@@ -5,77 +5,203 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Philly Cuisine 2022</title>
-    <!-- Bootstrap core css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-        integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-        crossorigin="" />
-    <!-- Custom styles for this template-->
-    <link rel="stylesheet" href="../static/css/styles.css">
-    <!-- D3 Library-->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-    <!-- Leaflet JavaScript code -->
-    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-        crossorigin=""></script>
-    <!-- Plotly Library-->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Best Philly Cuisine</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
 </head>
 
 <body>
-    <!-- Intro Header -->
-    <header class="test" id="top">
-        <div class="introduction">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 align-middle mr-auto">
-                        <h1 class="brand-heading">Best Philly Cuisine 2022</h1>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                        <p>Created by:
-                            <li> Rosie Gianan</li>
-                            <li> Myles Browne</li>
-                            <li> Mai Flynn</li>
-                            <li> Ryan Kim</li>
-                            <li> Drew Blankenbiller</li>
-                            <li> Nitin Kumar</li>
-                        <!-- </p class="small"><a href="{{ url_for('about') }}">Project Information</a>  -->
-                    </div>
-                </div>
+    <!-- HEADER -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Best Philly Cuisine</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interactive Maps
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{{url_for('vis')}}">Restaurant Map</a>
+                            <a class="dropdown-item" href="#">Heatmap</a>
+                            <a class="dropdown-item" href="#">Other Map</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dataset">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center" id="header">
+                <h1>Best Philly Cuisine</h1>
+                <br>
+                <br>
+                <br>
+                <h3>Ever wondered what the best restaurants are in your area, but felt skeptical to try them because you
+                    were not sure and the reviews didn't help?</h3>
+                <br>
+                <h4>We looked into that for you so you don't have to!</h4>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h5><p class="text-center">Created by: Rosie Gianan, Myles Browne, Mai Flynn, Ryan Kim, Nitin Kumar, Drew Blankenbiller</h5></p>
+                <br>
+                <br>
             </div>
         </div>
-    </header>
+        <div class="row">
+            <div class="col-md-8 fill">
+                <img src="{{url_for('static', filename='basemap.png')}}" alt="Image of Philadelphia on an Interactive Map" class="image">
 
-    <!-- MAP SECTION-->
-    <div class="map" id="phillymap"></div>
-
-
-       <footer>
+            </div>
+            <div class="col-md-4" id="project">
+                <br>
+                <p>This project aims to create an interactive web visualization that analyzes all of the food
+                    industry business in Philadelphia to figure out what the best restaurants are by
+                    (neighborhood/area)!</p>
+                <br>
+                <p>Using json data from Yelp and OpenDataPhilly we were able to create
+                    this visualization that allows you to select a category and food type to figure out the best
+                    restaurants in Philiadelphia that have at least a 3.5+ star rating.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-8 fill">
+                <img src="{{url_for('static', filename='schema.png')}}" class="image">
+                <!-- Would like to show the schema and any other files used for cleaning here as a slideshow-->
+            </div>
+            <div class="col-md-4" id="cleaning">
+                <br>
+                <p>After retrieving the information we needed from Yelp, there were still a couple of tasks we needed to
+                    complete before we could fully use it. </p>
+                <br>
+                <p> One of those things was needing to make sure all of the busniess we were using were in Philadelphia,
+                    and were actually restaurants that sold food. As Yelp collects information and reviews from a wide
+                    varitey of business.</p>
+                <br>
+                <p>This was done through pgAdmin where we created specific schema that would filter out anything
+                    unneeded for this project. Once done, the information was transferred to a jupyter notebook file for
+                    extra cleaning.</p>
+                <br>
+                <p>When our group felt like we could actually start to use the information held within, we had another
+                    conversation on what type of restaurants we wanted to cover for this map. Food Type? Cuisine?
+                    Specific Categories? There's not one way to describe restaurants fully so this was a very spirited
+                    debate until we could come out with a good outcome.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="col-md-12" id="about">
+            <h3 class="text-center">Group Members</h3>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-8 fill">
+                <img src="{{url_for('static', filename='Philly_small.jpg')}}">
+            </div>
+            <div class="col-md-4">
+                <!--Group members Section-->
+                <p> This will be a section where we have information on our fantastic group members!</p>
+            </div>
+        </div>
+        <br>
+        <div class="col-md-12" id="dataset">
+            <h3 class="text-center">Project Information</h3>
+            <hr>
+        </div>
+        <!-- Dataset/Tools Used Section-->
+        <div class="row jumbotron text-center">
+            <div class="col-lg-4">
+                <ul class="tools">
+                    <p><strong>Languages</strong></p>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <br>
+                    <p><strong>Data ETL</strong></p>
+                    <li>Jupyter Notebook</li>
+                    <li>Pandas</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <ul class="tools">
+                    <p><strong>Visualizations</strong></p>
+                    <li>Leaflet</li>
+                    <li>Plotly</li>
+                    <li>GeoJSON</li>
+                    <br>
+                    <p><strong>Web Development</strong></p>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Flask</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <ul class="tools">
+                    <p><strong>Database</strong></p>
+                    <li>Postgres</li>
+                    <br>
+                    <br>
+                    <br>
+                    <p><Strong>Sources</Strong></p>
+                    <li><a href="https://www.yelp.com/developers/documentation/v3/business">Yelp Dataset</a></li>
+                    <li><a href="https://www.opendataphilly.org/dataset/zip-codes">Zipcode GeoJSON</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="backtop" data-v-w="300, 1200">&#9650;</div>
+    <hr>
+    <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 text-center">
+                    <a href="#top"> Home</a>
+                    <a href="#about"> About</a>
                     <a href="https://github.com/Maelsse/best-philly-cuisine">Github Repository</a>
-                    <a href="{{ url_for('about') }}"> About</a>
-                    <a href="{{ url_for('index') }}"> Home</a>
-                </div>
-                <div class="col-6">
-                    <h6 class="text-right mr-4">&copy, Copyright 2022</h6>
                 </div>
             </div>
         </div>
-    </footer> 
+    </footer>
     <!-- JavaScript file-->
-    <script type="text/javascript" src="../static/js/logic.js"></script>   
-</body>
+    <script type="text/javascript" src="../static/js/quirks.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
 </html>
