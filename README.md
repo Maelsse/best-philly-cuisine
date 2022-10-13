@@ -1,7 +1,7 @@
 # Best Philly Cuisine
 
 
-![Philly.jpg](Images/Philly.jpg)
+![Philly.jpg](static/img/Philly.jpg)
 
 
 #### Contributors: 
