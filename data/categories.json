@@ -1,0 +1,747 @@
+[
+  {
+    "business_type": "food industry",
+    "category": "Afghan",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "African",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "American (New)",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Arabic",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Argentine",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Armenian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Asian Fusion",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Australian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Austrian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Bangladeshi",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Belgian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Brazilian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "British",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Burmese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cambodian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cantonese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Caribbean",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Chinese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Colombian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cuban",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Dominican",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Egyptian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Ethiopian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Filipino",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "French",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "German",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Greek",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Hainan",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Haitian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Hawaiian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Himalayan/Nepalese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Honduran",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Hungarian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Iberian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Indian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Indonesian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Israeli",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Italian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Japanese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Korean",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Laotian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Latin American",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Lebanese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Malaysian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Mediterranean",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Mexican",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Middle Eastern",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Modern European",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Mongolian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Moroccan",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "New Mexican Cuisine",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Pakistani",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Pan Asian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Peruvian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Polish",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Portuguese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Poutineries",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Puerto Rican",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Russian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Salvadoran",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Sardinian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Scandinavian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Senegalese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Shanghainese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Sicilian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Singaporean",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "South African",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Southern",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Spanish",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Szechuan",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Taiwanese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Thai",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Trinidadian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Turkish",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Ukrainian",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Uzbek",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Venezuelan",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Vietnamese",
+    "sub_category": "type of cuisine"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Acai Bowls",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Bagels",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Bakeries",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Barbeque",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Bars",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Bed & Breakfast",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Bistros",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Breakfast & Brunch",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Breweries",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Bubble Tea",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Buffets",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Burgers",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cafes",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cajun/Creole",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cheesesteaks",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Chicken Shop",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Chicken Wings",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cocktail Bars",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Coffee & Tea",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Comfort Food",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Creperies",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Cupcakes",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Delis",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Desserts",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Dim Sum",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Diners",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Donuts",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Empanadas",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Ethnic Food",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Falafel",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Fast Food",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Fish & Chips",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Food Court",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Food Trucks",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Fruits & Veggies",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Gastropubs",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Gelato",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Halal",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Hot Dogs",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Hot Pot",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Ice Cream & Frozen Yogurt",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Internet Cafes",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Irish Pub",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Japanese Curry",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Juice Bars & Smoothies",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Kosher",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Macarons",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Noodles",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Pizza",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Pretzels",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Pubs",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Ramen",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Restaurants",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Salad",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Sandwiches",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Seafood",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Smokehouse",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Soul Food",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Soup",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Specialty Food",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Steakhouses",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Sushi Bars",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Tacos",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Tapas Bars",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Tapas/Small Plates",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Tea Rooms",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Teppanyaki",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Tex-Mex",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Vegan",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Vegetarian",
+    "sub_category": "type of food"
+  },
+  {
+    "business_type": "food industry",
+    "category": "Waffles",
+    "sub_category": "type of food"
+  }
+]

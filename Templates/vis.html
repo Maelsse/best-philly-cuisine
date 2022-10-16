@@ -31,12 +31,28 @@
 </head>
 
 <body>
-    <div class="row jumbotron">
+    <div class="row jumbotron ">
         <div class="col-md-7">
-            <div class="well">
-                <h5>Food Category</h5>
-                <select id="selDataset" onchange="optionChanged(this.value)"></select>
-            </div>
+            <h5>Food Type</h5>
+            <input type="radio" name="type_food" value="HTML" onchange="optionChanged(this.value)">Spanish
+            <input type="radio" name="type_food" value="HTML" onchange="optionChanged(this.value)">Italian
+            <input type="radio" name="type_food" value="HTML" onchange="optionChanged(this.value)">American (New)
+            <input type="radio" name="type_food" value="HTML" onchange="optionChanged(this.value)">Latin American
+            <input type="radio" name="type_food" value="HTML" onchange="optionChanged(this.value)">French            
+            <!-- <h3>to do: convert this to radio button to select the "type of food" or "type of cuisine"<br></h3>-->
+            <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select>-->
+           <!-- <select id="FoodSelDataset" onchange="optionChanged(this.value)"></select> -->
+            <label for="html"></label><br>
+            <h5>Cuisine Type</h5>
+                <input type="radio" name="type_cuisine" value="HTML" onchange="optionChanged(this.value)">Bakery
+                <input type="radio" name="type_cuisine" value="HTML" onchange="optionChanged(this.value)">Dessert
+                <input type="radio" name="type_cuisine" value="HTML" onchange="optionChanged(this.value)">Pizza
+                <input type="radio" name="type_cuisine" value="HTML" onchange="optionChanged(this.value)">Vegetarian
+                <input type="radio" name="type_cuisine" value="HTML" onchange="optionChanged(this.value)">Vegan
+               <!-- <input type="radio" id="html" name="type_food" value="HTML" onchange="optionChanged(this.value)">
+                <label for="html">type of cuisine</label><br>
+                to do: populate the list with category selected i.e "type of food" or "type of cuisine" -->
+            <!-- <select id="CuisineSelDataset" onchange="optionChanged(this.value)"></select> -->
         </div>
         <div class="col-md-5">
             <div class="panel panel-primary">
@@ -46,6 +62,7 @@
                 <div id="sample-metadata" class="panel-body"></div>
             </div>
         </div>
+    </div>
     </div>
     <br>
     <br>
