@@ -34,6 +34,7 @@ var myMap = L.map("ratingsmap", {
       let color = setMarkerColor(rating);
   
       let markerAttributes = {
+      radius: (feature.properties.rating) * 3,
         fillColor: color,
         color: "black",
         weight: .75,
