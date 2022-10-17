@@ -20,14 +20,14 @@ Restricted to Philadelphia only: [Zip Codes - Datasets - OpenDataPhilly](https:/
 
 
 ## Objectives:
-Yelp is one of the most widely used restaurant and merchant information software across United States and provides us a holistic view about restaurants, such as basic business information and giving an overall review score or ratings.
+Yelp is one of the most widely used restaurant and merchant information software across United States and provides us a holistic view about businesses, such as business information and location data, while also giving users an overall review score or ratings based on crowd sourced reviews. 
 
 
 Create an interactive web visualization that analysis Philly food industry businesses using the Philly businesses json data. 
 Analyze and display the food businesses with at least a 3.5-star rating.
  
-## Solution:
-in progress
+## Solution: {in progress}
+business.json - Contains business data including location data, attributes, and categories
 
 
 
