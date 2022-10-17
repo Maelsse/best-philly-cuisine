@@ -51,7 +51,7 @@ function buildMaps() {
             myMap.fitBounds(event.target.getBounds());
           }
         });
-        layer.bindPopup("<h1>" + feature.properties.Alias + "<hr>" + feature.properties.CODE)
+        layer.bindPopup("<h1>" + feature.properties.Alias[0] + "<hr>" + feature.properties.CODE)
       }
     }).addTo(myMap);
   });
