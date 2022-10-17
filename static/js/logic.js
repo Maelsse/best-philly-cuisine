@@ -2,9 +2,12 @@
 
 // Creating Map Object
 
+var foodMarker = L.layerGroup([]);
+
 var myMap = L.map("phillymap", {
   center: [39.9864, -75.1563],
-  zoom: 11
+  zoom: 11,
+  layers: [foodMarker]
 });
 
 // Adding tile layer
@@ -15,8 +18,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 function buildMaps() {
-
-  var link = "/api/zips";
+  var link = "../data/Zipcodes_Poly.geojson";
   // Getting our GeoJSON data
   d3.json(link).then(function (data) {
     // Creating a GeoJSON layer with the retrieved data
@@ -57,18 +59,15 @@ function buildMaps() {
 
 buildMaps();
 
-function optionChanged(newSample) {
-  updateLayers(newSample);
-
+function optionChanged() {
+  updateLayers()
 }
-
-
 function onClick() {
-  updateMetadata(newSample);
+  updateMetadata();
 }
 
-function updateMetadata(sample) {
-  var restaurants = "/api/business";
+function updateMetadata() {
+  var restaurants = "https://raw.githubusercontent.com/Maelsse/best-philly-cuisine/main/data/restaurants.json";
   d3.json(restaurants).then(function (data) {
     for (var i = 0; i < data.features.length; i++) {
       var restaurant = data.features[i].properties;
@@ -85,35 +84,69 @@ function updateMetadata(sample) {
   });
 }
 
-/* 
-var cuisine = L.layerGroup(['Afghan', 'African', 'American(New)', 'Arabic', 'Argentine', 'Armenian', 'Asian Fusion', 'Australian', 'Austrian', 'Bangladeshi', 'Belgian', 'Brazilian', 'British', 'Burmese', 'Cambodian', 'Cantonese', 'Caribbean', 'Chinese', 'Colombian', 'Cuban', 'Dominican', 'Egyptian', 'Ethiopian', 'Filipino', 'French', 'German', 'Greek', 'Hainan', 'Haitian', 'Hawaiian', 'Himalayan/Nepalnese', 'Honduran', 'Iberian', 'Indian', 'Indonesian', 'Israeli', 'Italian', 'Japanese', 'Korean', 'Laotian', 'Latin American', 'Lebanese', 'Malaysian', 'Meditteranean', 'Mexican', 'Middle Eastern', 'Modern European', 'Mongolian', 'Moroccan', 'New Mexican Cuisine', 'Pakistani', 'Pan Asian', 'Peruvian', 'Polish', 'Portuguese', 'Poutineries', 'Puerto Rican', 'Russian', 'Salvadoran', 'Sardinian', 'Scandinavian', 'Shanghainese', 'Sicilian', 'Singaporean', 'South African', 'Southern', 'Spanish', 'Szechuan', 'Taiwanese', 'Thai', 'Trinidadian', 'Turkish', 'Ukrainian', 'Uzbek', 'Venezuelan', 'Vietnamese']);
-var foodType = L.layerGroup(['Acai Bowls', 'Bagels', 'Bakeries', 'Barbeque', 'Bars', 'Bed & Breakfast', 'Bistros', 'Breakfasst & Brunch', 'Breweries', 'Bubble Tea', 'Buffets', 'Burgers', 'Cafes', 'Cajun/Creole', 'Cheesesteaks', 'Chicken Shop', 'Chicken Wings', 'Cocktail Bars', 'Coffee & Tea', 'Comfort Food', 'Creperies', 'Cupcakes', 'Delis', 'Desserts', 'Dim Sum', 'Diners', 'Donuts', 'Empanadas', 'Ethnic Food', 'Falafel', 'Fast Food', 'Fish & Chips', 'Food Court', 'Food Trucks', 'Fruits & Veggies', 'Gastropubs', 'Gelato', 'Halal', 'Hot Dogs', 'Hot Pot', 'Ice Cream & Frozen Yogurt', 'Internet Cafes', 'Irish Pub', 'Japanese Curry', 'Juice Bars & Smoothies', 'Kosher', 'Macarons', 'Noodles', 'Pizza', 'Pretzels', 'Pubs', 'Ramen', 'Restaurants', 'Salad', 'Sandwiches', 'Seafood', 'Smokehouse', 'Soul Food', 'Soup', 'Specialty Food', 'Steakhouses', 'Sushi Bars', 'Tacos', 'Tapas Bars', 'Tapas/Small Plates', 'Tea Rooms', 'Teppanyaki', 'Tex-Mex', 'Vegan', 'Vegetarian', 'Waffles']);
-*/
-
 function updateLayers(sample) {
-  $('input[name=type_food]').click(function(){
-    
-  })
-
-  var restaurants = "/api/business";
+  var restaurants = "https://raw.githubusercontent.com/Maelsse/best-philly-cuisine/main/data/restaurants.json";
+  // be mindful of the spacings on the data
   d3.json(restaurants).then(function (data) {
-
+    var features = data.features;
+    var foodLayer = L.layerGroup([]).addTo(myMap);
+    var optFood = $("input[name='type_food']:checked").val();
+    $("input[name='type_food']").click(function () {
+      function addMarkers(){
+      var resultArray = features.filter(featuresObj => featuresObj.properties.categories.includes(optFood))
+      resultArray.forEach(restaurant => {
+        var resProp = restaurant.properties
+        var res_name = resProp.name 
+        var res_address = resProp.address + ", " + resProp.city + ", " + resProp.state + ", " + resProp.zip_code
+        var res_lat = resProp.latitude
+        var res_lon = resProp.longitude
+        var foodMarker = L.marker([res_lat, res_lon])
+        .bindPopup("<h3>" + res_name) //
+        .addTo(foodLayer).on('click', function(e) {
+          var PANEL = d3.select("#sample-metadata");
+          PANEL.html("");
+          Object.entries(resProp).forEach(([key, value]) => {
+            PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
+          });
+        });
+      // console.log(restaurant)
+      })
+    }
+    myMap.eachLayer((layer) => {
+      if(layer['_latlng']!=undefined)
+          layer.remove();
+  });
+    addMarkers();
   })
-
-  d3.json(restaurants).then(function (data) {
-    for (var i = 0; i < data.features.length; i++) {
-      var resFil = data.features[i].properties;
-      var r_lat = resFil.latitude;
-      var r_lon = resFil.longitude;
-      var r_name = resFil.name;
-      /*  console.log(r_lat)
-        console.log(r_lon)
-        console.log(r_name) */
-      L.marker([r_lat, r_lon])
-        .bindPopup(`<h1>${r_name}</h1>`)
-        .addTo(myMap)
-      /* console.log(data.features[0].properties.latitude)
-      /* console.log(restaurants.features) */
-    };
-  })
+  
+  var cuisineLayer = L.layerGroup([]).addTo(myMap);
+  var optCuisine = $("input[name='type_cuisine']:checked").val();
+  $("input[name='type_cuisine']:checked").click(function(){
+    function addCuisineMarkers(){
+      var resultArray = features.filter(featuresObj => featuresObj.properties.categories.includes(optCuisine))
+      resultArray.forEach(restaurant => {
+        var resProp = restaurant.properties
+        var res_name = resProp.name 
+        var res_address = resProp.address + ", " + resProp.city + ", " + resProp.state + ", " + resProp.zip_code
+        var res_lat = resProp.latitude
+        var res_lon = resProp.longitude
+        var foodMarker = L.marker([res_lat, res_lon])
+        .bindPopup("<h3>" + res_name + "<hr>" + res_address)
+        .addTo(cuisineLayer).on('click', function(e) {
+          var PANEL = d3.select("#sample-metadata");
+          PANEL.html("");
+          Object.entries(resProp).forEach(([key, value]) => {
+            PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
+          });
+        });
+      })
+    }
+    myMap.eachLayer((layer) => {
+      if(layer['_latlng']!=undefined)
+          layer.remove();
+  });
+  addCuisineMarkers();
+})
+  //  var typeFood = L.layerGroup(resultArray)
+})
 }

@@ -29,9 +29,10 @@ body { height: 100% }
     border-bottom: 3px solid lavender;
 }
 
-.well {
+
+.buttons {
     text-align: justify;
-    padding: 10px;
+    padding: 30px;
     font-size: 16px;
 }
 

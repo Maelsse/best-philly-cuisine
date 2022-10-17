@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="/static/css/main.css">
 </head>
 
 <body>
@@ -26,20 +26,15 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Interactive Maps
+                            Interactive Visualizations
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{{url_for('vis')}}">Restaurant Map</a>
-                            <a class="dropdown-item" href="#">Heatmap</a>
-                            <a class="dropdown-item" href="#">Other Map</a>
-
+                            <a class="dropdown-item" href="vis.html">Restaurant Map</a>
+                            <a class="dropdown-item" href="picks.html">Editor's List</a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="picks.html">Editor's List!</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#dataset">Data</a>
@@ -56,8 +51,9 @@
                 <br>
                 <br>
                 <br>
-                <h3>Here in Philadelphia, food is our love language. Philly has every kind of cuisine imaginable, and options for dining out are endless. 
-                We've found the best rated restaurants to match whatever mood you're in!</h3>
+                <h3>Here in Philadelphia, food is our love language. Philly has every kind of cuisine imaginable, and
+                    options for dining out are endless.
+                    We've found the best rated restaurants to match whatever mood you're in!</h3>
                 <br>
                 <h4>Let's dive into the best of the best of the best restaurants in your neighborhood!</h4>
                 <br>
@@ -71,14 +67,18 @@
                 <br>
                 <br>
                 <br>
-                <h5><p class="text-center">Created by: Rosie Gianan, Myles Browne, Mai Flynn, Ryan Kim, Nitin Kumar, Drew Blankenbiller</h5></p>
+                <h5>
+                    <p class="text-center">Created by: Rosie Gianan, Myles Browne, Mai Flynn, Ryan Kim, Nitin Kumar,
+                        Drew Blankenbiller
+                </h5>
+                </p>
                 <br>
                 <br>
             </div>
         </div>
         <div class="row">
             <div class="col-md-8 fill">
-                <img src="{{url_for('static', filename='img/basemap.png')}}" alt="Image of Philadelphia on an Interactive Map" class="image">
+                <img src="../static/img/basemap.png" alt="Image of Philadelphia on an Interactive Map" class="image">
 
             </div>
             <div class="col-md-4" id="project">
@@ -95,7 +95,7 @@
         <br>
         <div class="row">
             <div class="col-md-8 fill">
-                <img src="{{url_for('static', filename='img/schema.png')}}" class="image">
+                <img src="/static/img/schema.png" class="image">
                 <!-- Would like to show the schema and any other files used for cleaning here as a slideshow-->
             </div>
             <div class="col-md-4" id="cleaning">
@@ -125,7 +125,7 @@
         </div>
         <div class="row">
             <div class="col-md-8 fill">
-                <img src="{{url_for('static', filename='img/Philly_small.jpg')}}">
+                <img src="/static/img/Philly_small.jpg">
             </div>
             <div class="col-md-4">
                 <!--Group members Section-->
@@ -188,7 +188,7 @@
                 <div class="col-12 text-center">
                     <a href="#top"> Home</a>
                     <a href="#about"> About</a>
-                    <a href="{{url_for('download')}}">Dataset</a>
+                    <a href="datasets.html">Dataset</a>
                     <a href="https://github.com/Maelsse/best-philly-cuisine">Github Repository</a>
                 </div>
             </div>
@@ -196,7 +196,6 @@
     </footer>
     <!-- JavaScript file-->
     <script type="text/javascript" src="../static/js/quirks.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -208,4 +207,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
