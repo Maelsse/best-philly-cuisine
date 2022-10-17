@@ -296,6 +296,19 @@ for (let j = 0; j < data.length; ++j) {
 }
 option = {
   backgroundColor: bgColor,
+  title: {
+    text: "Editor's List",
+    subtext: "New to Philly or looking to discover other culinary gems in the city? \nYou're in luck! Here are 10 of our favorites.",
+    left: '5%',
+    top: "center",
+    textStyle: {
+      fontSize: 70,
+      fontStyle: "italic"
+    },
+    subtextStyle: {
+      fontSize: 25
+    }
+  },
   color: colors,
   series: [
     {

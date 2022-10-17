@@ -2,10 +2,6 @@
 html,
 body { height: 100% }
 
-#phillymap { 
-    height: 600px;
-    width: 1000px; 
-}
 #heatmap {
     height: 600px;
     width: 900px;

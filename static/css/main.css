@@ -46,6 +46,10 @@ body {
     color: white;
 }
 
+h5 {
+    color: white;
+}
+
 .fill {
     display: flex;
     justify-content: center;
