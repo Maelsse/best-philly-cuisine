@@ -18,7 +18,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 function buildMaps() {
-  var link = "data/Zipcodes_Poly.geojson";
+  var link = "../data/Zipcodes_Poly.geojson";
   // Getting our GeoJSON data
   d3.json(link).then(function (data) {
     // Creating a GeoJSON layer with the retrieved data
