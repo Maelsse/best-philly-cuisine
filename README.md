@@ -33,4 +33,9 @@ ETL:
 Our Yelp json provided us with 14569 Philadelphia businesses. We extracted and renamed the columns needed for analysis. We cleaned up the data by dropping unnecessary listings that were not food businesses and only used desired attributes. 
 
 
+*Cuisine filters
+
+
+*Editor's Recommendation List
+
 
