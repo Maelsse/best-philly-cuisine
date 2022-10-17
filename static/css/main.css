@@ -39,7 +39,7 @@ body {
 }
 
 #header {
-    background-image: url('static/img/LovePhilly.jpg');
+    background-image: url('../img/LovePhilly.jpg');
     height: 100%;
     width: 100%;
     background-size: cover;
