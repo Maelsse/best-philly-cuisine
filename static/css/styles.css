@@ -9,6 +9,18 @@ body { height: 100% }
     padding: 10px;
 }
 
+#phillymap { 
+    height: 600px;
+    width: 1000px; 
+}
+
+#ratingsmap { 
+    height: 725px;
+    width: 1600px;
+    margin: auto;
+}
+
+
 .panel {
     margin: auto;
     padding: 10px;

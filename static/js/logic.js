@@ -18,7 +18,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 function buildMaps() {
-  var link = "../data/Zipcodes_Poly.geojson";
+  var link = "https://raw.githubusercontent.com/Maelsse/best-philly-cuisine/main/data/Zipcodes_Poly.geojson";
   // Getting our GeoJSON data
   d3.json(link).then(function (data) {
     // Creating a GeoJSON layer with the retrieved data
@@ -131,7 +131,7 @@ function updateLayers(sample) {
         var res_lat = resProp.latitude
         var res_lon = resProp.longitude
         var foodMarker = L.marker([res_lat, res_lon])
-        .bindPopup("<h3>" + res_name + "<hr>" + res_address)
+        .bindPopup("<h3>" + res_name)
         .addTo(cuisineLayer).on('click', function(e) {
           var PANEL = d3.select("#sample-metadata");
           PANEL.html("");
