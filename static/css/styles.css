@@ -2,10 +2,6 @@
 html,
 body { height: 100% }
 
-#heatmap {
-    height: 600px;
-    width: 900px;
-}
 .map {
     margin: auto;
     width: 100%;
