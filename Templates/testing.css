@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #mainhead-chart-container {
+    position: relative;
+    height: 100vh;
+    overflow: visible;
+    display: flex;
+    background-blend-mode: saturation;
+  }
+    
+.r-content {
+  height: 900px;
+}
+
+
+.r-img {
+  height: 100%;
+  object-fit: cover;
+}
