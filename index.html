@@ -1,182 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Philly Cuisine</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/main.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Best Philly Cuisine</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="static/css/main.css">
+    </head>
 
-<body>
-    <!-- HEADER -->
-    <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html">Best Philly Cuisine</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <body>
+        <!-- HEADER -->
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Best Philly Cuisine</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Interactive Visualizations
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="vis.html">Restaurant Map</a>
-                            <a class="dropdown-item" href="picks.html">Team Recommendations</a>
-                            <a class="dropdown-item" href="ratings.html">Ratings</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#dataset">Data</a>
-                    </li>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Visualizations
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="vis.html">Restaurant Map</a></li>
+                      <li><a class="dropdown-item" href="picks.html">Team Recommendations</a></li>
+                      <li><a class="dropdown-item" href="ratings.html">Ratings</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#dataset">Data</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </nav>
-    </div>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 jumbotron text-center" id="header">
-                <h1>Best Philly Cuisine</h1>
-                <br>
-                <br>
-                <br>
-                <br>
-                <h3>Here in Philadelphia, food is our love language. Philly has every kind of cuisine imaginable, and
-                    options for dining out are endless.
-                    We've found the best rated restaurants to match whatever mood you're in!</h3>
-                <br>
-                <h4>Let's dive into the best of the best of the best restaurants in your neighborhood!</h4>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <h5>
-                    <p class="text-center">Created by: Rosie Gianan, Myles Browne, Mai Flynn, Ryan Kim, Nitin Kumar, Drew Blankenbiller
-                </h5>
-                </p>
-                <br>
-                <br>
-            </div>
-        </div>
-        <div class="col-md-12" id="dataset">
-            <h3 class="text-center">Inital Steps</h3>
-            <hr>
-        </div>
-        <div class="col-md-12 jumbotron" id="project">
-            <p>This project aims to create an interactive web visualization that analyzes all of the food
-                industry businesses in Philadelphia to figure out what the best restaurants are by
-                neighborhood and area!</p>
-            <br>
-            <p>Using json data from Yelp and OpenDataPhilly we were able to create
-                this visualization that allows you to select a category and food type to figure out the best
-                restaurants in Philiadelphia that have at least a 3.5+ star rating.</p>
-            <br>
-            <p>After retrieving the information we needed from Yelp, there were still a couple of tasks we needed to
-                complete before we could fully use it. </p>
-            <br>
-            <p>As Yelp collects a wide variety of data from all sorts of businesses, we had to make sure that the
-                businesses we were pulling data from were in Philadelphia and were tagged with categories specific to food restaurants.</p>
-            <br>
-            <p>This was done through pgAdmin where we created specific schema that would filter out anything
-                unneeded for this project. Once done, the information was transferred to a jupyter notebook file for
-                extra cleaning.</p>
-            <br>
-            <p>When our group felt like we could actually start to use the information held within, we had another
-                conversation on what type of restaurants we wanted to cover for this map. Food Type? Cuisine?
-                Specific Categories?
-            </p>
-            <p>Once everything was categorized, we were able to use all of the datasets in order to create our Visualizations.
-            </p>
-        </div>
+          </nav>
         <br>
-        <div class="col-md-12" id="dataset">
-            <h3 class="text-center">Project Information</h3>
-            <hr>
-        </div>
-        <!-- Dataset/Tools Used Section-->
-        <div class="row jumbotron text-center">
-            <div class="col-lg-4">
-                <ul class="tools">
-                    <p><strong>Languages</strong></p>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>SQL</li>
-                    <br>
-                    <p><strong>Data ETL</strong></p>
-                    <li>Jupyter Notebook</li>
-                    <li>Pandas</li>
-                </ul>
-            </div>
-            <div class="col-lg-4">
-                <ul class="tools">
-                    <p><strong>Visualizations</strong></p>
-                    <li>Leaflet</li>
-                    <li>Plotly</li>
-                    <li>GeoJSON</li>
-                    <br>
-                    <p><strong>Web Development</strong></p>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Flask</li>
-                </ul>
-            </div>
-            <div class="col-lg-4">
-                <ul class="tools">
-                    <p><strong>Database</strong></p>
-                    <li>Postgres</li>
-                    <br>
-                    <br>
-                    <br>
-                    <p><Strong>Sources</Strong></p>
-                    <li><a href="https://www.yelp.com/developers/documentation/v3/business">Yelp Dataset</a></li>
-                    <li><a href="https://www.opendataphilly.org/dataset/zip-codes">Zipcode GeoJSON</a></li>
-                    <li><a href="https://www.yelp.com/developers/documentation/v3/get_started">Yelp Fusion API</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div id="backtop" data-v-w="300, 1200">&#9650;</div>
-    <hr>
-    <footer>
-        <div class="container-fluid">
+        <!-- END NAVBAR -->
+        <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <a href="#top"> Home</a>
-                    <a href="https://github.com/Maelsse/best-philly-cuisine">Github Repository</a>
+                <div class="col-md-12 jumbotron text-center" id="header">
+                    <h1>Best Philly Cuisine</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Here in Philadelphia, food is our love language, and
+                        options for dining out are endless.
+                        We've found the highest rated restaurants to match whichever
+                        mood you're in!</h3>
+                    <br>
+                    <h4>Let's dive into the best of the best of the best
+                        restaurants in your neighborhood!</h4>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h5>
+                        <p class="text-center">Created by: Rosie Gianan, Myles
+                            Browne, Mai Flynn, Ryan Kim, Nitin Kumar
+                        </h5>
+                    </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-12" id="dataset">
+                <h3 class="text-center">Inital Steps</h3>
+                <hr>
+            </div>
+            <div class="col-md-12 jumbotron" id="project">
+                <p>This project aims to create an interactive web visualization
+                    that analyzes all of the food
+                    industry businesses in Philadelphia to figure out what the
+                    best restaurants are by
+                    neighborhood and area!</p>
+                <br>
+                <p>Using json data from Yelp and OpenDataPhilly we were able to
+                    create
+                    this visualization that allows you to select a category and
+                    food type to figure out the best
+                    restaurants in Philiadelphia that have at least a 3.5+ star
+                    rating.</p>
+                <br>
+                <p>After retrieving the information we needed from Yelp, there
+                    were still a couple of tasks we needed to
+                    complete before we could fully use it. </p>
+                <br>
+                <p>As Yelp collects a wide variety of data from all sorts of
+                    businesses, we had to make sure that the
+                    businesses we were pulling data from were in Philadelphia
+                    and were tagged with categories specific to food
+                    restaurants.</p>
+                <br>
+                <p>This was done through pgAdmin where we created specific
+                    schema that would filter out anything
+                    unneeded for this project. Once done, the information was
+                    transferred to a jupyter notebook file for
+                    extra cleaning.</p>
+                <br>
+                <p>When our group felt like we could actually start to use the
+                    information held within, we had another
+                    conversation on what type of restaurants we wanted to cover
+                    for this map. Food Type? Cuisine?
+                    Specific Categories?
+                </p>
+                <p>Once everything was categorized, we were able to use all of
+                    the datasets in order to create our Visualizations.
+                </p>
+            </div>
+            <br>
+            <div class="col-md-12" id="dataset">
+                <h3 class="text-center">Project Information</h3>
+                <hr>
+            </div>
+            <!-- Dataset/Tools Used Section-->
+            <div class="row jumbotron text-center">
+                <div class="col-lg-4">
+                    <ul class="tools">
+                        <p><strong>Languages</strong></p>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <br>
+                        <p><strong>Data ETL</strong></p>
+                        <li>Jupyter Notebook</li>
+                        <li>Pandas</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="tools">
+                        <p><strong>Visualizations</strong></p>
+                        <li>Leaflet</li>
+                        <li>Plotly</li>
+                        <li>GeoJSON</li>
+                        <br>
+                        <p><strong>Web Development</strong></p>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="tools">
+                        <p><strong>Database</strong></p>
+                        <li>Postgres</li>
+                        <br>
+                        <br>
+                        <br>
+                        <p><Strong>Sources</Strong></p>
+                        <li><a
+                                href="https://www.yelp.com/developers/documentation/v3/business">Yelp
+                                Dataset</a></li>
+                        <li><a
+                                href="https://www.opendataphilly.org/dataset/zip-codes">Zipcode
+                                GeoJSON</a></li>
+                        <li><a
+                                href="https://www.yelp.com/developers/documentation/v3/get_started">Yelp
+                                Fusion API</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- JavaScript file-->
-    <script type="text/javascript" src="static/js/quirks.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        <br>
+        <div id="backtop" data-v-w="300, 1200">&#9650;</div>
+        <hr>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="#top"> Home</a>
+                        <a
+                            href="https://github.com/Maelsse/best-philly-cuisine">Github
+                            Repository</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- JavaScript file-->
+        <script type="text/javascript" src="static/js/quirks.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+            crossorigin="anonymous"></script>
 
-</body>
+    </body>
 
 </html>
